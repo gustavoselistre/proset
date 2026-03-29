@@ -13,7 +13,7 @@ export function About() {
         <Marquee items={MARQUEE_WORDS} speed={25} />
       </div>
 
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           {/* Text content */}
           <div>

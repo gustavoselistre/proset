@@ -7,7 +7,7 @@ import { TESTIMONIALS } from "@/lib/constants";
 export function Testimonials() {
   return (
     <section id="depoimentos" className="relative py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         {/* Section header */}
         <div className="mb-16 text-center">
           <motion.span
@@ -23,7 +23,7 @@ export function Testimonials() {
           <TextReveal
             text="O que nossos clientes dizem"
             as="h2"
-            className="mx-auto max-w-2xl font-display text-3xl font-bold leading-tight text-text-primary md:text-4xl lg:text-5xl"
+            className="mx-auto max-w-2xl text-center font-display text-3xl font-bold leading-tight text-text-primary md:text-4xl lg:text-5xl"
           />
         </div>
 

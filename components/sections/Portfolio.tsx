@@ -82,7 +82,7 @@ export function Portfolio() {
 
       {/* Mobile: Vertical stack */}
       {isMobile && (
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
           <div className="mb-12 text-center">
             <span className="mb-4 inline-block text-sm font-medium uppercase tracking-widest text-accent-gold">
               Portfólio

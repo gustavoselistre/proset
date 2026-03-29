@@ -22,7 +22,7 @@ export function Header() {
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-12 lg:px-16">
           {/* Logo */}
           <a href="#inicio" className="group relative z-10">
             <span className="font-display text-2xl font-bold tracking-wider text-text-primary">

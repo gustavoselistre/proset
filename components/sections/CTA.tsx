@@ -29,7 +29,7 @@ export function CTA() {
         <div className="absolute left-3/4 top-0 h-full w-px bg-gradient-to-b from-transparent via-border to-transparent" />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
+      <div className="relative z-10 mx-auto max-w-4xl px-6 md:px-12 lg:px-16 text-center">
         <motion.span
           className="mb-6 inline-block text-sm font-medium uppercase tracking-widest text-accent-gold"
           initial={{ opacity: 0, y: 20 }}
@@ -43,7 +43,7 @@ export function CTA() {
         <TextReveal
           text="Vamos Criar Algo Extraordinário Juntos?"
           as="h2"
-          className="mb-6 font-display text-4xl font-bold leading-tight text-text-primary md:text-5xl lg:text-6xl"
+          className="mb-6 text-center font-display text-4xl font-bold leading-tight text-text-primary md:text-5xl lg:text-6xl"
         />
 
         <motion.p

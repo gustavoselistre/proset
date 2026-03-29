@@ -8,7 +8,7 @@ import { SERVICES } from "@/lib/constants";
 export function Services() {
   return (
     <section id="servicos" className="relative py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         {/* Section header */}
         <div className="mb-16 text-center">
           <motion.span
@@ -24,7 +24,7 @@ export function Services() {
           <TextReveal
             text="Soluções completas para cada tipo de evento"
             as="h2"
-            className="mx-auto max-w-3xl font-display text-3xl font-bold leading-tight text-text-primary md:text-4xl lg:text-5xl"
+            className="mx-auto max-w-3xl text-center font-display text-3xl font-bold leading-tight text-text-primary md:text-4xl lg:text-5xl"
           />
         </div>
 

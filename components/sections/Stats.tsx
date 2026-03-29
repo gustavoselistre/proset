@@ -10,7 +10,7 @@ export function Stats() {
       {/* Background accent */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-accent-gold/5 via-transparent to-accent-gold/5" />
 
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-12">
           {STATS.map((stat, i) => (
             <motion.div
